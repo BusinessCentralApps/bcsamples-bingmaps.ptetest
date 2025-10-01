@@ -29,7 +29,7 @@
   },
   "doNotSignApps": true,
   "keyVaultCodesignCertificateName": "FreddyKristiansen",
-  "templateSha": "9f340a54e14a2eb5c51a47e49cfde83254ca6c9e",
+  "templateSha": "6c30380d3c8de86507fc7f3b64fd632c2d60a73b",
   "deployToTestBC": {
     "EnvironmentType": "SaaS",
     "EnvironmentName": "TestBC",
