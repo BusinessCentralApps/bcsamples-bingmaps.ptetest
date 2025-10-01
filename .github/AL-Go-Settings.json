@@ -14,6 +14,7 @@
       }
     }
   ],
+  "buildModes": [ "Default", "Special"],
   "runs-on": "ubuntu-latest",
   "shell": "pwsh",
   "githubRunner": "windows-latest",
@@ -25,5 +26,15 @@
   },
   "doNotSignApps": true,
   "keyVaultCodesignCertificateName": "FreddyKristiansen",
-  "templateSha": "763578f6adb012a0c4f8cecc340dfb60c52cab0e"
+  "templateSha": "763578f6adb012a0c4f8cecc340dfb60c52cab0e",
+  "deployToTestBC": {
+    "EnvironmentType": "SaaS",
+    "EnvironmentName": "TestBC",
+    "Projects": "*",
+    "DependencyInstallMode": "install",
+    "buildMode": "Special",
+    "continuousDeployment": true,
+    "runs-on": "ubuntu-latest",
+    "shell": "pwsh"
+  }
 }
