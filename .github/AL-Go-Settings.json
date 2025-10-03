@@ -35,7 +35,6 @@
     "EnvironmentName": "TestBC",
     "Projects": "*",
     "DependencyInstallMode": "install",
-    "buildMode": "Special",
     "continuousDeployment": true,
     "runs-on": "ubuntu-latest",
     "shell": "pwsh"
