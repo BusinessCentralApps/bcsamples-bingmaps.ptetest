@@ -1,7 +1,7 @@
 {
-  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/mazhelez/env-deployment-settings-v2/Actions/.Modules/settings.schema.json",
+  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/mazhelez/limit-readsettings-output/Actions/.Modules/settings.schema.json",
   "type": "PTE",
-  "templateUrl": "https://github.com/microsoft/AL-Go@mazhelez/env-deployment-settings-v2",
+  "templateUrl": "https://github.com/microsoft/AL-Go@mazhelez/limit-readsettings-output",
   "conditionalSettings": [
     {
       "workflows": [
@@ -23,8 +23,11 @@
     "ContinuousDeployment": true,
     "MaxReleases": 0
   },
-  "buildModes": ["Default", "Special"],
+  "buildModes": [
+    "Default",
+    "Special"
+  ],
   "doNotSignApps": true,
   "keyVaultCodesignCertificateName": "FreddyKristiansen",
-  "templateSha": "672b486fc5fd055883d2d013483f069a6ef8db4f"
+  "templateSha": "7420a02123d218dcca4c331b8dae1dbe0fbdd5f1"
 }
