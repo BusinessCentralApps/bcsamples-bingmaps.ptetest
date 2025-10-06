@@ -30,7 +30,7 @@ jobs:
           lfs: true
 
       - name: Troubleshooting
-        uses: microsoft/AL-Go/Actions/Troubleshooting@mazhelez/env-deployment-settings
+        uses: microsoft/AL-Go/Actions/Troubleshooting@mazhelez/env-deployment-settings-v2
         with:
           shell: pwsh
           gitHubSecrets: ${{ toJson(secrets) }}
