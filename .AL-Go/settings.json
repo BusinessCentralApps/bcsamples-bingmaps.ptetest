@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/mazhelez/limit-readsettings-output/Actions/.Modules/settings.schema.json",
+  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/issue/1946/Actions/.Modules/settings.schema.json",
   "country": "us",
   "VersioningStrategy": 16,
   "appFolders": [
