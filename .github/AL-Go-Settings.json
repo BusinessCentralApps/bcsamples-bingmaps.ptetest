@@ -1,7 +1,7 @@
 {
-  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/mazhelez/limit-readsettings-output/Actions/.Modules/settings.schema.json",
+  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/issue/1946/Actions/.Modules/settings.schema.json",
   "type": "PTE",
-  "templateUrl": "https://github.com/microsoft/AL-Go@mazhelez/limit-readsettings-output",
+  "templateUrl": "https://github.com/microsoft/AL-Go@issue/1946",
   "conditionalSettings": [
     {
       "workflows": [
@@ -29,5 +29,5 @@
   ],
   "doNotSignApps": true,
   "keyVaultCodesignCertificateName": "FreddyKristiansen",
-  "templateSha": "7420a02123d218dcca4c331b8dae1dbe0fbdd5f1"
+  "templateSha": "cb70fde2f3c77e063eddff590198221892fa44ae"
 }

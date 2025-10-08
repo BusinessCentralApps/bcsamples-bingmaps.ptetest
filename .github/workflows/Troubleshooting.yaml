@@ -30,7 +30,7 @@ jobs:
           lfs: true
 
       - name: Troubleshooting
-        uses: microsoft/AL-Go/Actions/Troubleshooting@mazhelez/limit-readsettings-output
+        uses: microsoft/AL-Go/Actions/Troubleshooting@issue/1946
         with:
           shell: pwsh
           gitHubSecrets: ${{ toJson(secrets) }}
